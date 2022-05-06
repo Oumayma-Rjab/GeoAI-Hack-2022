@@ -1,0 +1,5 @@
+- I trained two catboost models:
+	1 - I used vegetation indices where the for each timestep the BANDs mean values. 
+	2 - I used vegetation indices for all the timestep BANDs aggregation.
+After that I ensembled the two model's output and obtained the score on the leaderboard.
+
